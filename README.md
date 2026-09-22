@@ -1,6 +1,11 @@
 # Shell Lock
 
-Private release candidate. Public redistribution licensing is not selected yet.
+> **Deprecated for new Claude Code integrations — 2026-09-22.** Retained as an
+> Apache-2.0 reference project. Public launch remains deferred and the repository
+> remains private. This is a maintainer status decision, not a claim that Claude
+> Code replaces every capability. No ongoing feature work or support is promised.
+
+Private release candidate, licensed under Apache-2.0. Public launch is deferred.
 
 Run a command under an exclusive local file lock. Useful for shell jobs, scheduled
 tasks, build scripts, and agents that must not write the same resource concurrently.
@@ -42,3 +47,10 @@ The tool leaves the file in place after exit and detects replacement while waiti
 
 An executed command can itself return any of those codes; stderr distinguishes
 wrapper diagnostics. See [examples](examples/demo.sh) and [provenance](PROVENANCE.md).
+
+## License and maintenance
+
+Copyright 2026 Aditya Dalmia. Licensed under [Apache-2.0](LICENSE), with
+[attribution](NOTICE) and [source provenance](PROVENANCE.md). Public launch is
+deferred; repository access remains private. See the [release preparation index](docs/release/README.md),
+[contributing guide](CONTRIBUTING.md), and [security contact](SECURITY.md).

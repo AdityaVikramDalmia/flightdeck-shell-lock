@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Deprecated reference example for new Claude Code integrations (2026-09-22).
 set -eu
 tool="$(cd "$(dirname "$0")/../bin" && pwd)/shell-lock"
 demo_dir="$(mktemp -d "${TMPDIR:-/tmp}/shell-lock-demo.XXXXXX")"
