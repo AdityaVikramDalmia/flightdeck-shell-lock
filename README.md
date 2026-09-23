@@ -1,11 +1,11 @@
 # Shell Lock
 
 > **Deprecated for new Claude Code integrations — 2026-09-22.** Retained as an
-> Apache-2.0 reference project. Public launch remains deferred and the repository
-> remains private. This is a maintainer status decision, not a claim that Claude
+> Apache-2.0 public reference implementation. This is a maintainer status
+> decision, not a claim that Claude
 > Code replaces every capability. No ongoing feature work or support is promised.
 
-Private release candidate, licensed under Apache-2.0. Public launch is deferred.
+Public reference implementation, licensed under Apache-2.0.
 
 Run a command under an exclusive local file lock. Useful for shell jobs, scheduled
 tasks, build scripts, and agents that must not write the same resource concurrently.
@@ -51,6 +51,6 @@ wrapper diagnostics. See [examples](examples/demo.sh) and [provenance](PROVENANC
 ## License and maintenance
 
 Copyright 2026 Aditya Dalmia. Licensed under [Apache-2.0](LICENSE), with
-[attribution](NOTICE) and [source provenance](PROVENANCE.md). Public launch is
-deferred; repository access remains private. See the [release preparation index](docs/release/README.md),
+[attribution](NOTICE) and [source provenance](PROVENANCE.md). This is a public
+reference implementation, deprecated for new Claude Code integrations as of 2026-09-22. See the [release preparation index](docs/release/README.md),
 [contributing guide](CONTRIBUTING.md), and [security contact](SECURITY.md).
